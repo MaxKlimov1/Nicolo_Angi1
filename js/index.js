@@ -2,10 +2,10 @@ const burgerButton = document.querySelector('.header_burger-menu'),
     burgerMenu = document.querySelector('.burger_main-block'),
     closeBtn = document.querySelector('.close-btn');
 
-const arrowLeft = document.querySelector('.left-arrow'),
-    arrowRight = document.querySelector('.right-arrow'),
+const arrowLeft = document.querySelector('.arrow_left'),
+    arrowRight = document.querySelector('.arrow_right'),
     workerList = document.querySelectorAll('.main_workers-arr'),
-    workerItem = document.querySelectorAll('.main_worker-item')
+    workerItem = document.querySelectorAll('.main_worker-item');
 
 burgerButton.addEventListener('mouseup', e => {
     e.preventDefault();

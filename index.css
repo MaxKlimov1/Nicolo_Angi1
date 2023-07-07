@@ -329,8 +329,8 @@ main{
 /* SECTION MAP */
 
 .main_section-map{
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -575,4 +575,24 @@ header{
     display: none;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.arrow_left {
+    background-image: url('./logos/arrow_left.png');
+    width: 53px;
+    height: 53px;
+}
+
+.arrow_right {
+    background-image: url('./logos/arrow_right.png');
+    width: 53px;
+    height: 53px;
+}
+
+.arrow_left:active {
+    background-image: url('./logos/arrow_hover_left.png');
+}
+
+.arrow_right:active {
+    background-image: url('./logos/arrow_hover_right.png');
 }
