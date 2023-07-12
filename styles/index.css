@@ -296,6 +296,7 @@ body {
     margin-top: 35px;
     width: 650px;
     list-style-type: none;
+    opacity: 0;
 }
 
 .place-title-item {

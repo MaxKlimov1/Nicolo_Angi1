@@ -25,10 +25,10 @@
 const a = document.querySelector('.about-img1');
 const b = document.querySelector('.about-img3');
 const c = document.querySelector('.place-image');
+const cc = document.querySelector('.place-title-list');
 
 window.addEventListener('scroll', e => {
     e.preventDefault();
-    console.log(window.scrollY)
 
     if(scrollY >=256) {
         a.classList.add('square-animation-rev')
@@ -37,5 +37,6 @@ window.addEventListener('scroll', e => {
 
     if(scrollY >=1100) {
         c.classList.add('square-animation')
+        cc.classList.add('square-animation-rev')
     }
 })
