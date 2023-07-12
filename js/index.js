@@ -1,52 +1,41 @@
-const burgerButton = document.querySelector('.header_burger-menu'),
-    burgerMenu = document.querySelector('.burger_main-block'),
-    closeBtn = document.querySelector('.close-btn');
+// const observer = new IntersectionObserver(entries => {
+//     // перебор записей
+//     entries.forEach(entry => {
+//       // если элемент появился
+//       if (entry.isIntersecting) {
+//         // добавить ему CSS-класс
+//         entry.target.classList.add('square-animation');
+//       }
+//     });
+//   });
+//   observer.observe(document.querySelector('.about-img3'));
 
-const arrowLeft = document.querySelector('.arrow_left'),
-    arrowRight = document.querySelector('.arrow_right'),
-    workerList = document.querySelectorAll('.main_workers-arr'),
-    workerItem = document.querySelectorAll('.main_worker-item');
+//   const observerTwo = new IntersectionObserver(entries => {
+//     // перебор записей
+//     entries.forEach(entry => {
+//       // если элемент появился
+//       if (entry.isIntersecting) {
+//         // добавить ему CSS-класс
+//         entry.target.classList.add('square-animation-rev');
+//       }
+//     });
+//   });
+//   observerTwo.observe(document.querySelector('.about-img1'));
 
-burgerButton.addEventListener('mouseup', e => {
+const a = document.querySelector('.about-img1');
+const b = document.querySelector('.about-img3');
+const c = document.querySelector('.place-image');
+
+window.addEventListener('scroll', e => {
     e.preventDefault();
-    burgerMenu.style.display = 'block';
-});
+    console.log(window.scrollY)
 
-closeBtn.addEventListener('mouseup', e => {
-    e.preventDefault();
-    burgerMenu.style.display = 'none';
-});
-
-let slyderCounter = 1;
-
-function slyderCardFun() {
-
-    if (slyderCounter > workerItem.length) {
-        slyderCounter = 1;
+    if(scrollY >=256) {
+        a.classList.add('square-animation-rev')
+        b.classList.add('square-animation')
     }
 
-    if (slyderCounter < 1) {
-        slyderCounter = workerItem.length;
+    if(scrollY >=1100) {
+        c.classList.add('square-animation')
     }
-
-    workerItem.forEach(item => {
-        return item.style.display = "none"
-    });
-
-    workerItem[slyderCounter - 1].style.display = 'block';
-}
-
-slyderCardFun(slyderCounter);
-
-
-arrowLeft.addEventListener("click", (e) => {
-    e.preventDefault();
-    slyderCounter += 1;
-    slyderCardFun();
-})
-
-arrowRight.addEventListener("click", (e) => {
-    e.preventDefault();
-    slyderCounter -= 1;
-    slyderCardFun();
 })

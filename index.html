@@ -4,344 +4,324 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacts</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./adaptive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/adaptive.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="burger_main-block">
-            <div class="close-btn">
-                <img src="./logos/close.png" alt="close">
-            </div>
-            <div class="burger_phone-block">
-                <img src="./logos/header_phone.png" alt="phone logo">
-                <div class="header_number-block">
-                    <h2 class="burger_number">
-                        8 (930) 360-42-42
-                    </h2>
-                    <p class="burger_description">
-                        Звоните с 9:00 до 17:00
-                    </p>
-                </div>
-            </div>
-            <div class="burger_link-block">
-                <a href="#" class="header_link-site">
-                    <p class="header_link-title">Сайт для розницы</p>
-                    <img src="./logos/link_logo.png" alt="link logo" class="header_link-logo">
-                </a>
-                <a href="#" class="header_link-site burger-link-marg">
-                    <p class="header_link-title">Сайт для совместных покупок</p>
-                    <img src="./logos/link_logo.png" alt="link logo" class="header_link-logo">
-                </a>
-            </div>
-            <div class="burger_user-block">
-                <div class="burger_user">
-                    <img src="./logos/user_logo.png" alt="user logo" class="header_user-img">
-                </div>
-                <div class="burger_basket">
-                    <img src="./logos/basket.png" alt="basket logo" class="basket-img">
-                </div>
-            </div>
-        </div>
+    <header>
         <div class="container">
-            <div class="header_information">
-                <div class="header_logo">
-                    <img src="./logos/header_logo.png" alt="header logo">
-                </div>
-                <span class="decorate-line"></span>
-                <p class="header_description">
-                    Оптовая продажа мужской одежды
-                </p>
-                <div class="header_search">
-                    <input type="text" id="header_input" placeholder="Поиск...">
-                    <img src="./logos/search_logo.png" alt="search logo" class="search_logo">
-                    <button class="button header_button">Поиск</button>
-                </div>
-                <div class="header_phone-block">
-                    <img src="./logos/header_phone.png" alt="phone logo">
-                    <div class="header_number-block">
-                        <h2 class="header_number">
-                            8 (930) 360-42-42
-                        </h2>
-                        <p class="number_description">
-                            Звоните с 9:00 до 17:00
-                        </p>
+            <div class="header-wrapper">
+                <div class="header-menu">
+                    <div class="line-block">
+                        <span class="menu-line"></span>
+                        <span class="menu-line"></span>
+                        <span class="menu-line"></span>
                     </div>
                 </div>
-                <div class="header_user-block">
-                    <div class="header_user">
-                        <img src="./logos/user_logo.png" alt="user logo" class="header_user-img">
-                    </div>
-                    <div class="header_basket">
-                        <img src="./logos/basket.png" alt="basket logo" class="basket-img">
-                    </div>
+                <div class="header-logo">
+                    <img src="./logos/header_logo.png" alt="header-logo">
                 </div>
-                <div class="header_burger-menu">
-                    <span class="header_burger-line"></span>
-                    <span class="header_burger-line"></span>
-                    <span class="header_burger-line"></span>
+                <div class="header-feedback">
+                    <a href="#">
+                        <p class="header-phone">+7 (900) 000-00-00</p>
+                    </a>
+                    <button class="btn header-button">Заказать звонок</button>
                 </div>
             </div>
         </div>
-        <div class="bg">
-            <div class="container">
-                <nav class="header_navigation">
-                    <div class="header_catalog">
-                        <h2 class="header_catalog-title">
-                            КАТАЛОГ
-                        </h2>
-                        <div class="header_catalog-menu">
-                            <span class="header_catalog-line"></span>
-                            <span class="header_catalog-line"></span>
-                        </div>
-                    </div>
-                    <ul class="header_nav-list">
-                        <li class="header_nav-item">
-                            <p>О КОМПАНИИ</p>
-                        </li>
-                        <li class="header_nav-item item-marg">
-                            <p>ОПТОВИКАМ</p>
-                        </li>
-                        <li class="header_nav-item item-marg">
-                            <p>КОНТАКТЫ</p>
-                        </li>
-                    </ul>
-                    <div class="header_link-block">
-                        <a href="#" class="header_link-site">
-                            <p class="header_link-title">Сайт для розницы</p>
-                            <img src="./logos/link_logo.png" alt="link logo" class="header_link-logo">
-                        </a>
-                        <a href="#" class="header_link-site link-marg">
-                            <p class="header_link-title">Сайт для совместных покупок</p>
-                            <img src="./logos/link_logo.png" alt="link logo" class="header_link-logo">
-                        </a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="container">
-            <div class="header_banner">
-                <p class="header_banner-title">
-                    Продаем мужскую одежду оптом. <span class="item-one">Минимальное количество</span> при оформлении
-                    заказа: <span class="item-two">20 товаров</span>
-                </p>
-            </div>
-        </div>
-
     </header>
 
     <main>
-        <div class="container">
-            <p class="main_url">
-                Главная - Контакты
-            </p>
-            <h1 class="main_title-contacts">Контакты</h1>
-            <section class="main_address-section">
-                <h2 class="main_address-title">Центральный офис</h2>
-                <ul class="main_address-list">
-                    <li class="main_address-item">
-                        <img src="./logos/address_logo.png" alt="address logo" class="main_address-logo">
-                        <div class="main_address-info">
-                            <h3 class="main_address-subtitle">Адрес</h3>
-                            <p class="main_address-subinfo">г. Иваново, ул. 11-я Сосневская, д.89, Пн – Пт: 8:30 -
-                                17:30</p>
-                        </div>
-                    </li>
-                    <span class="address-line"></span>
-                    <li class="main_address-item">
-                        <img src="./logos/address_phone.png" alt="phone logo" class="main_address-logo">
-                        <div class="main_address-info">
-                            <h3 class="main_address-subtitle">Справочная служба</h3>
-                            <p class="main_address-subinfo">8 (930) 360-42-42</p>
-                        </div>
-                    </li>
-                    <span class="address-line"></span>
-                    <li class="main_address-item">
-                        <img src="./logos/address_email.png" alt="email logo" class="main_address-logo">
-                        <div class="main_address-info">
-                            <h3 class="main_address-subtitle">E-mail</h3>
-                            <p class="main_address-subinfo info-border">info@nicoloangi.com</p>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <section class="main_section-map">
-                <div class="main_block-info-map">
-                    <h2 class="main_map-title">Региональные представительства</h2>
-                    <p class="main_map-description">Наша компания имеет широкую сеть региональных представительств и
-                        дилеров. Вы можете обратиться в ближайший к Вам офис для получения дополнительных консультаций.
-                    </p>
-                    <div class="main_ekbiv-cities">
-                        <h3 class="main_map-cities-title">Екатеринбургская область:</h3>
-                        <div class="main_map-cities-info">
-                            <img src="./logos/address_logo.png" alt="cities logo" class="main_cities-logo">
-                            <div class="main_cities-cont-info">
-                                <h3 class="main_cities-address-title">Адрес</h3>
-                                <p class="main_cities-address">г. Екатеринбург, ул. Технологическая, д. 5</p>
-                            </div>
-                        </div>
-                        <div class="main_map-cities-info">
-                            <img src="./logos/address_phone.png" alt="phone logo" class="main_cities-logo">
-                            <div class="main_cities-cont-info">
-                                <h3 class="main_cities-address-title">Телефон</h3>
-                                <p class="main_cities-address">8 (343) 374-30-30</p>
-                            </div>
+        <section class="section-title">
+            <div class="container">
+                <div class="title-wrapper">
+                    <div class="title-info">
+                        <h1 class="main-title">
+                            Рюкзаки, сумки, аксессуары оптом
+                            от производителя
+                        </h1>
+                        <button class="btn title-btn">Получить прайс-лист
+                            <img src="./logos/arrow.png" alt="arrow" class="arrow">
+                        </button>
+                        <div class="title-images">
+                            <img src="./img/title_img1.png" alt="title image">
+                            <img src="./img/title_img2.png" class="ti-1" alt="title image">
                         </div>
                     </div>
+                    <div class="title-image">
+                        <img src="./img/title_img3.png" alt="title image">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="main_ekbiv-cities">
-                        <h3 class="main_map-cities-title">Ивановская область:</h3>
-                        <div class="main_map-cities-info">
-                            <img src="./logos/address_logo.png" alt="cities logo" class="main_cities-logo">
-                            <div class="main_cities-cont-info">
-                                <h3 class="main_cities-address-title">Адрес</h3>
-                                <p class="main_cities-address">г. Иваново, ул. 11-я Сосневская, д.89</p>
+        <section class="about-us">
+            <div class="container">
+                <h2 class="about-us-title">
+                    О нас
+                </h2>
+                <div class="about-image-wrapp">
+                    <div class="about-wrap1">
+                        <div class="about-description">
+                            <div class="about-descr-logo">
+                                <img src="./logos/icon_time.png" alt="icon time">
+                            </div>
+                            <h3 class="about-descr-title">Более 3-х лет</h3>
+                            <p class="about-descr-description">Производим рюкзаки и сумки</p>
+                        </div>
+                        <div class="about-img1">
+                            <img src="./img/about_img1.png" alt="about img">
+                        </div>
+                    </div>
+                    <div class="about-wrap2">
+                        <div class="about-description">
+                            <div class="about-descr-logo">
+                                <img src="./logos/icon_quality.png" alt="icon quality">
+                            </div>
+                            <h3 class="about-descr-title">Качество</h3>
+                            <p class="about-descr-description">Высокое качество, надежные поставщики материалов и
+                                фурнитуры</p>
+                        </div>
+                        <div class="about-description d1">
+                            <div class="about-descr-logo">
+                                <img src="./logos/icon_uniqueness.png" alt="icon uniqueness">
+                            </div>
+                            <h3 class="about-descr-title">Уникальность</h3>
+                            <p class="about-descr-description">Наши дизайнеры разрабатывают уникальные авторские
+                                принты
+                                и модели изделий для вашего бренда</p>
+                        </div>
+                        <div class="about-description">
+                            <div class="about-descr-logo">
+                                <img src="./logos/icon_box.png" alt="icon box">
+                            </div>
+                            <h3 class="about-descr-title">Доставка</h3>
+                            <p class="about-descr-description">Доставим Ваш заказ в любую точку России и СНГ</p>
+                        </div>
+                    </div>
+                    <div class="about-wrap3">
+                        <div class="about-img3">
+                            <img src="./img/video.png" alt="video image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="how-to-place">
+                    <div class="place-title-block">
+                        <h2 class="place-title">Как сделать заказ</h2>
+                        <ul class="place-title-list">
+                            <li class="place-title-item">
+                                <div class="content-item1">
+                                    <img src="./logos/number.png" alt="number">
+                                    <img src="./logos/line.png" alt="line" class="place-line">
+                                </div>
+                                <div class="content-item2">
+                                    <p class="place1">Отправляете заявку на каталог через <a href="#"
+                                            class="place_a1">форму</a> или
+                                        звоните
+                                        нам по номеру телефона <a href="tel:+79000000000" class="place_a2">+7 (900)
+                                            000-00-00</a></p>
+                                </div>
+                            </li>
+                            <li class="place-title-item pti1">
+                                <div class="content-item1">
+                                    <img src="./logos/number-1.png" alt="number">
+                                    <img src="./logos/line.png" alt="line" class="place-line">
+                                </div>
+                                <div class="content-item2">
+                                    <p class="place1">Получаете предложение с ценой и сроком доставки на электронную
+                                        почту,
+                                        которую указали в заявке</p>
+                                </div>
+                            </li>
+                            <li class="place-title-item pti1">
+                                <div class="content-item1">
+                                    <img src="./logos/number-2.png" alt="number">
+                                    <img src="./logos/line.png" alt="line" class="place-line">
+                                </div>
+                                <div class="content-item2">
+                                    <p class="place1">Делаете заказ у наших менеджеров по почте, по номеру телефона или
+                                        в
+                                        мессенджерах</p>
+                                </div>
+                            </li>
+                            <li class="place-title-item pti1">
+                                <div class="content-item1">
+                                    <img src="./logos/number-3.png" alt="number">
+                                </div>
+                                <div class="content-item2">
+                                    <p class="place1">Получаете товар удобным способом</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="place-image">
+                        <img src="./img/place_photo.png" alt="place section image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+                <h2 class="catalog-title">Каталог</h2>
+                <ul class="catalog-list">
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img1.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Детские рюкзаки</h3>
+                    </li>
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img2.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Городские рюкзаки</h3>
+                    </li>
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img3.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Шопперы</h3>
+                    </li>
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img4.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Клатчи</h3>
+                    </li>
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img5.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Ремни</h3>
+                    </li>
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img6.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Спортивные сумки</h3>
+                    </li>
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img7.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Школьные рюкзаки</h3>
+                    </li>
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img7.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Сумки для ноутбуков</h3>
+                    </li>
+                    <li class="catalog-item">
+                        <img src="./img/catalog-img7.png" alt="catalog item image" class="catalog-item-image">
+                        <h3 class="catalog-item-title">Сумки на пояс</h3>
+                    </li>
+                </ul>
+                <div class="block-btn">
+                    <button class="catalog-button">
+                        Заказать пробную партию
+                        <img src="./logos/arrow.png" alt="arrow" class="arrow">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts-section">
+            <div class="container">
+                <h2 class="contacts-title">Контакты</h2>
+                <div class="contacts-block">
+                    <div class="contacts-info-block">
+                        <img src="./logos/contacts-logo.png" alt="logo" class="cont-logo">
+                        <div class="contact-info">
+                            <div class="phone">
+                                <img src="./logos/cont-phone.png" alt="phone logo" class="contacts-phone-logo">
+                                <p class="contacts-phone">
+                                    <a href="tel:+79051555744">+7 (905) 155-57-44</a>
+                                </p>
+                            </div>
+                            <div class="email">
+                                <img src="./logos//cont-email.png" alt="email.logo" class="contacts-email-logo">
+                                <p class="contacts-email">
+                                    <a href="mailto:olebag.info@yandex.ru">olebag.info@yandex.ru</a>
+                                </p>
+                            </div>
+                            <div class="adress">
+                                <img src="./logos/cont-adress.png" alt="adress logo" class="contacts-adress-logo">
+                                <p class="contacts-adress">г.Иваново, ул.Некрасова, д.124, оф.3</p>
                             </div>
                         </div>
-                        <div class="main_map-cities-info">
-                            <img src="./logos/address_phone.png" alt="phone logo" class="main_cities-logo">
-                            <div class="main_cities-cont-info">
-                                <h3 class="main_cities-address-title">Телефон</h3>
-                                <p class="main_cities-address">8 (930) 360-42-42</p>
+                        <button class="contacts-button">Получить прайс-лист
+                            <img src="./logos/arrow.png" alt="arrow" class="arrow">
+                        </button>
+                    </div>
+                    <div class="comments-block">
+                        <div class="comment-username">
+                            <div class="comment-usetname-title">
+                                <p class="username">Марина Черкасова</p>
+                                <div class="next-username">
+                                    <img src="./logos/arrow_left.png" alt="arrow left" class="arrow-left">
+                                    <img src="./logos/arrow_right.png" alt="arrow right" class="arrow-right">
+                                </div>
+                            </div>
+                            <div class="comment-estimation">
+                                <div class="estimation-date">
+                                    <p>27 мая 2023</p>
+                                </div>
+                                <div class="estimation-stars">
+                                    <img src="./logos/star_active.png" alt="star">
+                                    <img src="./logos/star_active.png" alt="star">
+                                    <img src="./logos/star_active.png" alt="star">
+                                    <img src="./logos/star_active.png" alt="star">
+                                    <img src="./logos/star_deactive.png" alt="star">
+                                </div>
+                            </div>
+                            <p class="comment-description">
+                                Lorem ipsum dolor sit amet consectetur. Eu fringilla ornare turpis arcu. Eu nunc fames
+                                vestibulum eu. Eu morbi enim lacus magna et odio volutpat pulvinar varius. Sed enim
+                                senectus posuere pellentesque lobortis non. Pellentesque tempus amet egestas at nullam
+                                auctor id.
+                            </p>
+                            <div class="comment-img-block">
+                                <img src="./img/comment_img1.png" alt="comment image">
+                                <img src="./img/comment_img2.png" alt="comment image" class="ci2">
                             </div>
                         </div>
                     </div>
                 </div>
-                <img src="./images/map.png" alt="yandex map" class="main_map">
-            </section>
-        </div>
-        <div class="bg2">
-            <div class="container">
-                <section class="main_section-workers">
-                    <h2 class="main_workers-title">С вами работают</h2>
-                    <ul class="main_workers-list">
-                        <li class="main_worker-card">
-                            <img src="./images/worker_1.png" alt="worker photo" class="main_worker-photo">
-                            <h3 class="main_worker-fullname">Голубева Надежда Васильевна</h3>
-                            <p class="main_worker-status">Менеджер</p>
-                            <div class="main_worker-phone-block">
-                                <img src="./logos/worker_phone.png" alt="phone logo" class="main_worker-phone-logo">
-                                <p class="main_worker-phone">+7 (900) 000-00-00</p>
-                            </div>
-                            <div class="main_worker-email-block">
-                                <img src="./logos/worker_email.png" alt="email logo" class="main_worker-email-logo">
-                                <p class="main_worker-email">adresemail@mail.ru</p>
-                            </div>
+
+                <div class="social-block">
+                    <h3 class="social-title">
+                        Найти нашу продукцию можно на сайтах:
+                    </h3>
+                    <ul class="social-list">
+                        <li class="social-item vk">
+                            <p class="item-name">Vkontakte</p>
                         </li>
-                        <li class="main_worker-card">
-                            <img src="./images/worker_2.png" alt="worker photo" class="main_worker-photo">
-                            <h3 class="main_worker-fullname">Белолипецкий Андрей Николаевич</h3>
-                            <p class="main_worker-status">Менеджер</p>
-                            <div class="main_worker-phone-block">
-                                <img src="./logos/worker_phone.png" alt="phone logo" class="main_worker-phone-logo">
-                                <p class="main_worker-phone">+7 (900) 000-00-00</p>
-                            </div>
-                            <div class="main_worker-email-block">
-                                <img src="./logos/worker_email.png" alt="email logo" class="main_worker-email-logo">
-                                <p class="main_worker-email">adresemail@mail.ru</p>
-                            </div>
+                        <li class="social-item wild">
+                            <p class="item-name">Wildberries</p>
                         </li>
-                        <li class="main_worker-card">
-                            <img src="./images/worker_3.png" alt="worker photo" class="main_worker-photo">
-                            <h3 class="main_worker-fullname">Полиморфский Евгений Борисович</h3>
-                            <p class="main_worker-status">Менеджер</p>
-                            <div class="main_worker-phone-block">
-                                <img src="./logos/worker_phone.png" alt="phone logo" class="main_worker-phone-logo">
-                                <p class="main_worker-phone">+7 (900) 000-00-00</p>
-                            </div>
-                            <div class="main_worker-email-block">
-                                <img src="./logos/worker_email.png" alt="email logo" class="main_worker-email-logo">
-                                <p class="main_worker-email">adresemail@mail.ru</p>
-                            </div>
-                        </li>
-                        <li class="main_worker-card">
-                            <img src="./images/worker_4.png" alt="worker photo" class="main_worker-photo">
-                            <h3 class="main_worker-fullname">Попова Юлия Сергеевна</h3>
-                            <p class="main_worker-status">Менеджер</p>
-                            <div class="main_worker-phone-block">
-                                <img src="./logos/worker_phone.png" alt="phone logo" class="main_worker-phone-logo">
-                                <p class="main_worker-phone">+7 (900) 000-00-00</p>
-                            </div>
-                            <div class="main_worker-email-block">
-                                <img src="./logos/worker_email.png" alt="email logo" class="main_worker-email-logo">
-                                <p class="main_worker-email">adresemail@mail.ru</p>
-                            </div>
+                        <li class="social-item ozon">
+                            <p class="item-name">Ozon</p>
                         </li>
                     </ul>
-
-                    <ul class="main_workers-arr">
-                        <li class="main_worker-item">
-                            <img src="./images/worker_1.png" alt="worker photo" class="main_worker-photo">
-                            <h3 class="main_worker-fullname">Голубева Надежда Васильевна</h3>
-                            <p class="main_worker-status">Менеджер</p>
-                            <div class="main_worker-phone-block">
-                                <img src="./logos/worker_phone.png" alt="phone logo" class="main_worker-phone-logo">
-                                <p class="main_worker-phone">+7 (900) 000-00-00</p>
-                            </div>
-                            <div class="main_worker-email-block">
-                                <img src="./logos/worker_email.png" alt="email logo" class="main_worker-email-logo">
-                                <p class="main_worker-email">adresemail@mail.ru</p>
-                            </div>
-                        </li>
-                        <li class="main_worker-item">
-                            <img src="./images/worker_2.png" alt="worker photo" class="main_worker-photo">
-                            <h3 class="main_worker-fullname">Белолипецкий Андрей Николаевич</h3>
-                            <p class="main_worker-status">Менеджер</p>
-                            <div class="main_worker-phone-block">
-                                <img src="./logos/worker_phone.png" alt="phone logo" class="main_worker-phone-logo">
-                                <p class="main_worker-phone">+7 (900) 000-00-00</p>
-                            </div>
-                            <div class="main_worker-email-block">
-                                <img src="./logos/worker_email.png" alt="email logo" class="main_worker-email-logo">
-                                <p class="main_worker-email">adresemail@mail.ru</p>
-                            </div>
-                        </li>
-                        <li class="main_worker-item">
-                            <img src="./images/worker_3.png" alt="worker photo" class="main_worker-photo">
-                            <h3 class="main_worker-fullname">Полиморфский Евгений Борисович</h3>
-                            <p class="main_worker-status">Менеджер</p>
-                            <div class="main_worker-phone-block">
-                                <img src="./logos/worker_phone.png" alt="phone logo" class="main_worker-phone-logo">
-                                <p class="main_worker-phone">+7 (900) 000-00-00</p>
-                            </div>
-                            <div class="main_worker-email-block">
-                                <img src="./logos/worker_email.png" alt="email logo" class="main_worker-email-logo">
-                                <p class="main_worker-email">adresemail@mail.ru</p>
-                            </div>
-                        </li>
-                        <li class="main_worker-item">
-                            <img src="./images/worker_4.png" alt="worker photo" class="main_worker-photo">
-                            <h3 class="main_worker-fullname">Попова Юлия Сергеевна</h3>
-                            <p class="main_worker-status">Менеджер</p>
-                            <div class="main_worker-phone-block">
-                                <img src="./logos/worker_phone.png" alt="phone logo" class="main_worker-phone-logo">
-                                <p class="main_worker-phone">+7 (900) 000-00-00</p>
-                            </div>
-                            <div class="main_worker-email-block">
-                                <img src="./logos/worker_email.png" alt="email logo" class="main_worker-email-logo">
-                                <p class="main_worker-email">adresemail@mail.ru</p>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <div class="main_slider_arrow">
-                        <!-- <img src="./logos/arrow_left.png" class="left-arrow">
-                        <img src="./logos/arrow_right.png" alt="arrow right" class="right-arrow"> -->
-
-                        <div class="arrow_left"></div>
-                        <div class="arrow_right"></div>
-                    </div>
+                </div>
             </div>
-        </div>
         </section>
-
     </main>
 
+    <footer>
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    2023г Все права защищены
+                </li>
+                <li class="footer-item">
+                    <a href="#">Политика конфиденциальности</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#">Создание сайта - Иллюминатор</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
     <script src="./js/index.js"></script>
 </body>
 
