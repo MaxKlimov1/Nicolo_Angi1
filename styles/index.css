@@ -67,11 +67,11 @@ body {
 }
 
 .square-animation{
-    animation: aniss 1.5s forwards;
+    animation: aniss 0.75s forwards;
 }
 
 .square-animation-rev{
-    animation: anis 1.5s forwards;
+    animation: anis 0.75s forwards;
 }
 
 
@@ -172,12 +172,12 @@ body {
 .title-images {
     margin-top: 59px;
     opacity: 0;
-    animation: ani 3s forwards;
+    animation: ani 0.75s forwards;
 }
 
 .title-images img {
     opacity: 0;
-    animation: anis 3s forwards;
+    animation: anis 0.75s forwards;
 }
 
 .ti-1 {
@@ -185,11 +185,11 @@ body {
 }
 
 .title-image{
-    animation: aniss 3s forwards;
+    animation: aniss 0.75s forwards;
 }
 
 .title-image img{
-    animation: ani 3s forwards;
+    animation: ani 0.75s forwards;
 }
 
 /* .title-images3 {
