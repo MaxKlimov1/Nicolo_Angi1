@@ -67,11 +67,11 @@ body {
 }
 
 .square-animation{
-    animation: aniss 3s forwards;
+    animation: aniss 1.5s forwards;
 }
 
 .square-animation-rev{
-    animation: anis 3s forwards;
+    animation: anis 1.5s forwards;
 }
 
 

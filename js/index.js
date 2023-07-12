@@ -28,6 +28,7 @@ const c = document.querySelector('.place-image');
 
 window.addEventListener('scroll', e => {
     e.preventDefault();
+    console.log(window.scrollY)
 
     if(scrollY >=256) {
         a.classList.add('square-animation-rev')
